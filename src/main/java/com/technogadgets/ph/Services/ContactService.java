@@ -7,6 +7,9 @@ import com.technogadgets.ph.model.ContactModel;
 
 public interface ContactService {
 
+	
+	
+	//this is testing
 
 		//method in adding a contact
 		void addContact(ContactModel contactModel);
