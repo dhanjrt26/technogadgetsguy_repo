@@ -23,6 +23,7 @@ public class ContactController {
 		if(result.hasFieldErrors()) {
 			return "contact";
 		}
+		//this will lead to add values
 		contactService.addContact(model);
         return "index";
     }
