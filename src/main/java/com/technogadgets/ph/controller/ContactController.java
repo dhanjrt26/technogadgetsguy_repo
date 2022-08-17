@@ -28,5 +28,6 @@ public class ContactController {
         return "index";
     }
 	
+	//this is sample again
 	
 } 
