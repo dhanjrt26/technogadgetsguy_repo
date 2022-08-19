@@ -29,6 +29,7 @@ public class ContactServiceImpl implements ContactService{
 		return contactRepository.findAll();
 	}
 
+	
 	@Override
 	public ContactModel getContactById(long id) {
 		// TODO Auto-generated method stub
@@ -42,6 +43,7 @@ public class ContactServiceImpl implements ContactService{
         return contactModel;
 	}
 
+	
 	@Override
 	public void deleteContactById(long id) {
 		// TODO Auto-generated method stub

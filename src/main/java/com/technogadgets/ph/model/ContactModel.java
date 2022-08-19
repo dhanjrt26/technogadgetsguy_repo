@@ -28,7 +28,7 @@ public class ContactModel {
 	private String message;
 	
 	
-	//
+	//this is setter and getter
 	
 	public String getName() {
 		return name;
