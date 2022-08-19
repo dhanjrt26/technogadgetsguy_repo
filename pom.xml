@@ -59,6 +59,14 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/com.microsoft/sqljdbc4 -->
+		<dependency>
+    <groupId>com.microsoft.sqlserver</groupId>
+    <artifactId>mssql-jdbc</artifactId>
+    <version>6.2.2.jre8</version>
+</dependency>
+		
 	</dependencies>
 
 	<build>
