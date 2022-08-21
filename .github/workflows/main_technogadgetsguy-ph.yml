@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'technogadgetsguy-ph'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E06228BC88CF41B7A78B20DBA268C00F }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8077592370F344028FBC4B9F882A486E }}
           package: '*.jar'
